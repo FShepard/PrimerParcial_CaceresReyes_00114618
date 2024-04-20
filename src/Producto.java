@@ -8,11 +8,13 @@ public abstract class Producto {
     private double precio;
 
 
+    public Producto (){}
+
     public Producto(String nombre, String modelo, String descripcion, double precio) {
         this.nombre = nombre;
         this.modelo = modelo;
         this.descripcion = descripcion;
-        this.precio = precio;   
+        this.precio = precio;
     }
 
     public String getNombre() {

@@ -9,6 +9,8 @@ private String porcentajeBateria;
         this.tamañoPantalla = tamañoPantalla;
     }
 
+
+
     public Movil(String nombre, String modelo, String descripcion, double precio) {
         super(nombre, modelo, descripcion, precio);
     }
